@@ -1,24 +1,18 @@
 #include <stdio.h>
-#include <stdilib.h>
-#include <time.h>
-I
+
 /**
- * main - prints alpha in lower case
- * Description: get a random lt with 5
- * Return: Always 0
+ * main - Prints the alphabet in lowercase.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
+	char letter;
 
-	char lc;
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
+	putchar('\n');
 
-	for (lc = 'a'; lc <= 'z'; lc++)
-	{
-		putchar(lc);
-
-	}
-		putchar('\n');
-		return (0);
+	return (0);
 }
-
