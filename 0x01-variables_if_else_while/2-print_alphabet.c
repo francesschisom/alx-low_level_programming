@@ -1,27 +1,24 @@
 #include <stdio.h>
 #include <stdilib.h>
 #include <time.h>
+I
 /**
- * main - main block
+ * main - prints alpha in lower case
  * Description: get a random lt with 5
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
 
+	char lc;
 
 
-	char c = 'a';
-
-
-	while (c <= 'z')
+	for (lc = 'a'; lc <= 'z'; lc++)
 	{
-		putchar(c);
-		c++;
+		putchar(lc);
+
 	}
-
-
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
 }
 
